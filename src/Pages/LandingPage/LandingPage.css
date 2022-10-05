@@ -7,9 +7,17 @@
 	justify-content: space-around;
 	align-items: center;
 }
-.mainImageContent{
-  
-}
-.mainImageAds{
 
+/* tab screens */
+@media screen and (min-width : 960px){
+	.mainBackground{
+		display: flex;
+		flex-direction: column;
+		width : 960px;
+		height: 1194px;
+		align-items: center;
+		justify-content: center;
+	}
 }
+
+

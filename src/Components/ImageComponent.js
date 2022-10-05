@@ -6,7 +6,7 @@ const ImageComponent = () => {
   return (
 	<div className='imageComp'>
 	  
-	  <img src={logo} alt="eventimage" />
+	  <img src={logo} alt="eventimage" className='image-comp' />
 
 	 </div>
   )

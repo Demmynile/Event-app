@@ -1,0 +1,73 @@
+/* Desktop */
+.ads-one{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	row-gap: 1rem;
+}
+.adsMainComponent {
+
+	display: flex;
+	flex-direction: column;
+	row-gap : 1rem
+}
+.button-event{
+	width : 300px;
+	margin-left : 12rem;
+	
+}
+.imagine-snapchat{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+color : #240D57;
+/* identical to box height */
+text-align: right;
+
+}
+.special-title{
+background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.text-events{
+	width: 521px;
+	height: 56px;
+}
+.event-words{
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: right;
+	color: #4F4F4F;
+}
+
+/* tab */
+@media screen and (min-length : 960px ){
+    .imagine-snapchat{
+		position: absolute;
+		width: 573.91px;
+		height: 192px;
+		left: 154.04px;
+		top: 0px;
+
+		font-family: 'Helvetica';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 64px;
+		line-height: 64px;
+		/* or 100% */
+
+		text-align: center;
+
+		color: #240D57;
+		
+	}
+}
